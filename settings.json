@@ -1,0 +1,10 @@
+{
+  "mouse_sensitivity": 0.0025,
+  "mouse_look": true,
+  "invert_mouse_y": false,
+  "fov": 50,
+  "quality": "high",
+  "fullscreen": false,
+  "soft_shadows": true,
+  "game_mode": "no_jump"
+}

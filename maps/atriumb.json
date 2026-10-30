@@ -1,0 +1,107 @@
+{
+  "name": "Atriumb",
+  "level": 1,
+  "texture_style": "brick",
+  "grid": [
+    "1111111111111111",
+    "10000C00L0000D01",
+    "101110P010111001",
+    "1000100000100001",
+    "1000101110101101",
+    "1000001000000101",
+    "1011001001100001",
+    "100C0000000000Q1",
+    "1111111111111111"
+  ],
+  "colors": {
+    "sky": [
+      95,
+      155,
+      205
+    ],
+    "floor": [
+      58,
+      55,
+      52
+    ],
+    "wall": [
+      220,
+      175,
+      125
+    ]
+  },
+  "spawn": [
+    2.5,
+    1.5,
+    0.0
+  ],
+  "portal": {
+    "map": "corridoio",
+    "spawn": [
+      2.5,
+      1.5,
+      0.0
+    ]
+  },
+  "objects": [
+    {
+      "x": 4.5,
+      "y": 1.5,
+      "type": "block",
+      "width": 0.8,
+      "depth": 0.8,
+      "height": 0.4,
+      "climbable": true,
+      "color": [
+        166,
+        116,
+        76
+      ],
+      "name": "Blocco personalizzato"
+    }
+  ],
+  "enemies": [],
+  "layers": [
+    {
+      "name": "Piano 1",
+      "grid": [
+        "1111111111111111",
+        "10000C00L0000D01",
+        "101110P010111001",
+        "1000100000100001",
+        "1000101110101101",
+        "1000001000000101",
+        "1011001001100001",
+        "100C0000000000Q1",
+        "1111111111111111"
+      ],
+      "objects": [
+        {
+          "x": 4.5,
+          "y": 1.5,
+          "type": "block",
+          "width": 0.8,
+          "depth": 0.8,
+          "height": 0.4,
+          "climbable": true,
+          "color": [
+            166,
+            116,
+            76
+          ],
+          "name": "Blocco personalizzato"
+        }
+      ],
+      "enemies": []
+    }
+  ],
+  "cutscenes": [
+    {
+      "title": "Nuova scenaaa",
+      "text": "Descrivi cosa succede...ss",
+      "duration": 4.0
+    }
+  ],
+  "custom_texture": [],
+  "portals": []
+}
